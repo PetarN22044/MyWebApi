@@ -16,5 +16,5 @@ namespace MyWebApi.Dtos.Character
         public int Intelligence { get; set; }
 
         public RpgClass Class {get;set;} = RpgClass.Knight;
-    }
+    }//.
 }

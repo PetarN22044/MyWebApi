@@ -50,7 +50,7 @@ namespace MyWebApi.Services.CharacterService
     }
     return serviceResponce;
 }
-
+//..
 
         public async Task<ServiceResponce<List<GetCharacterDto>>> GetAllCharacters()
         {
@@ -100,5 +100,5 @@ namespace MyWebApi.Services.CharacterService
           
            return serviceResponce;
         }
-    }
+    }//.
 }

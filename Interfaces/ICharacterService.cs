@@ -16,5 +16,5 @@ namespace MyWebApi.Interfaces
     Task<ServiceResponce<GetCharacterDto>> UpdateCharacter (UpdateCharacterDto updatedCharacter);
      
      Task<ServiceResponce<GetCharacterDto>> DeleteCharacter(int id);
-    }
+    }//.
 }

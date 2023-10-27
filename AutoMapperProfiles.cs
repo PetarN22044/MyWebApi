@@ -13,6 +13,6 @@ namespace MyWebApi
         public AutoMapperProfiles(){
             CreateMap<Character,GetCharacterDto>();
             CreateMap<AddCharacterDto,Character>();
-        }
+        }//.
     }
 }
