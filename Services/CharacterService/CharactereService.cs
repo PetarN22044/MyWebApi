@@ -100,5 +100,5 @@ namespace MyWebApi.Services.CharacterService
           
            return serviceResponce;
         }
-    }//.
+    }//..
 }
