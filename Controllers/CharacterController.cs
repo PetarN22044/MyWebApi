@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyWebApi.Dtos.Character;
 using MyWebApi.Interfaces;
@@ -10,6 +12,7 @@ using MyWebApi.Services.CharacterService;
 
 namespace MyWebApi.Controllers
 {
+  [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CharacterController : ControllerBase
@@ -22,6 +25,7 @@ namespace MyWebApi.Controllers
 
         [HttpGet("GetAll")]
           public async Task<ActionResult<ServiceResponce<List<GetCharacterDto>>>> Get(){
+
             return Ok( await _characterService.GetAllCharacters());
           }
           
@@ -54,5 +58,9 @@ namespace MyWebApi.Controllers
              }
              return Ok(response);
           }
-    }//..
+          [HttpPost("Skill")]
+          public async Task<ActionResult<ServiceResponce<GetCharacterDto>>> AddCharacterSkill(AddCharacterSkillDto newCharacterSkill){
+            return Ok(await _characterService.AddCharacterSkill(newCharacterSkill));
+          }
+    }//...
 }
