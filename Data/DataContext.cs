@@ -29,4 +29,4 @@ namespace MyWebApi.Data
 
         public DbSet<Skill> Skills => Set<Skill>();
     }
-}
+}///...

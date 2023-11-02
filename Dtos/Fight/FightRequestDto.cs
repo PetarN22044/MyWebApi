@@ -9,4 +9,4 @@ namespace MyWebApi.Dtos.Fight
     {
         public List<int> CharacterIds {get;set;}= new List<int>();
     }
-}
+}///...

@@ -14,4 +14,4 @@ namespace MyWebApi.Dtos.Fight
 
         public int Defeats {get;set;}
     }
-}
+}///...

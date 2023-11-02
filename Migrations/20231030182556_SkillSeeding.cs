@@ -6,7 +6,7 @@
 
 namespace MyWebApi.Migrations
 {
-    /// <inheritdoc />
+    /// <inheritdoc />///...
     public partial class SkillSeeding : Migration
     {
         /// <inheritdoc />

@@ -29,7 +29,7 @@ namespace MyWebApi.Migrations
                 principalColumn: "Id");
         }
 
-        /// <inheritdoc />
+        /// <inheritdoc />///...
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(

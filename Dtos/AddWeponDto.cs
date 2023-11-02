@@ -12,4 +12,4 @@ namespace MyWebApi.Dtos
 
         public int CharacterId {get;set;}
     }
-}
+}///...

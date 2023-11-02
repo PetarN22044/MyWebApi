@@ -207,6 +207,6 @@ var response = new ServiceResponce<AttackResultDto>();
                 Data = characters.Select(x=>_mapper.Map<HighscoreDto>(x)).ToList()
             };
           return response;
-         }
+         }//....
     }
 }

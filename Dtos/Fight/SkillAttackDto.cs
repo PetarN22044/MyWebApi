@@ -11,4 +11,4 @@ namespace MyWebApi.Dtos.Fight
         public int OpponentId {get;set;}
         public int SkillId {get;set;}
     }
-}
+}///...

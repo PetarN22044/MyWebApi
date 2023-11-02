@@ -15,7 +15,7 @@ namespace MyWebApi.Migrations
     [Migration("20231030182556_SkillSeeding")]
     partial class SkillSeeding
     {
-        /// <inheritdoc />
+        /// <inheritdoc />...///
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618

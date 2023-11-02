@@ -13,7 +13,7 @@ namespace MyWebApi.Migrations
     [DbContext(typeof(DataContext))]
     [Migration("20231029191308_User")]
     partial class User
-    {
+    {///...
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

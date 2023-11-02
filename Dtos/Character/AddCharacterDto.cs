@@ -17,4 +17,4 @@ namespace MyWebApi.Dtos.Character
 
         public RpgClass Class {get;set;} = RpgClass.Knight;
     }
-}
+}///...

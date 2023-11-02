@@ -10,7 +10,7 @@ using MyWebApi.Data;
 #nullable disable
 
 namespace MyWebApi.Migrations
-{
+{///...
     [DbContext(typeof(DataContext))]
     [Migration("20231029192800_UserCharacterRelationship")]
     partial class UserCharacterRelationship

@@ -21,4 +21,4 @@ namespace MyWebApi
             CreateMap<Character,HighscoreDto>();
         }
     }
-}
+}///...

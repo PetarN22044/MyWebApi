@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
 
 namespace MyWebApi.Data
-{
+{///...
     public class AuthRepository : IAuthRepository
     {
         private readonly DataContext _context;

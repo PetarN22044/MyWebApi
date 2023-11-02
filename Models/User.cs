@@ -17,4 +17,4 @@ namespace MyWebApi.Models
 
         public List<Character>? Characters {get;set;}
     }
-}
+}///...

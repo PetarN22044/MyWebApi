@@ -11,4 +11,4 @@ namespace MyWebApi.Interfaces
     {
         Task<ServiceResponce<GetCharacterDto>> AddWeapon (AddWeponDto newWeapon);
     }
-}
+}///...

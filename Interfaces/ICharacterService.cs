@@ -20,4 +20,4 @@ namespace MyWebApi.Interfaces
       Task<ServiceResponce<GetCharacterDto>> AddCharacterSkill (AddCharacterSkillDto newCharacterSkill);
 
     }
-}
+}///...

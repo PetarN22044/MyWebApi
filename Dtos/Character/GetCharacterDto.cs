@@ -26,4 +26,4 @@ namespace MyWebApi.Dtos.Character
         public int Victories {get;set;}
         public int Defeats {get;set;}
     }
-}
+}///...

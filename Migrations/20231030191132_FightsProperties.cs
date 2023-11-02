@@ -32,7 +32,7 @@ namespace MyWebApi.Migrations
                 defaultValue: 0);
         }
 
-        /// <inheritdoc />
+        /// <inheritdoc />...
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(

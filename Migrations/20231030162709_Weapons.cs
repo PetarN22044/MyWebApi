@@ -7,7 +7,7 @@ namespace MyWebApi.Migrations
     /// <inheritdoc />
     public partial class Weapons : Migration
     {
-        /// <inheritdoc />
+        /// <inheritdoc />...
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(

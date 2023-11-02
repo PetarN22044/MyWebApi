@@ -24,4 +24,4 @@ namespace MyWebApi.Models
         public int Victories {get;set;}
         public int Defeats {get;set;}
     }
-}
+}///...

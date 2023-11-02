@@ -10,4 +10,4 @@ namespace MyWebApi.Dtos.Character
        public int CharacterId {get;set;}
        public int SkillId {get;set;} 
     }
-}
+}///...
